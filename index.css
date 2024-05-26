@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+
+}
+html, body {
+    height: 100%;
+}
+.basicpage{
+    background-color: rgba(20,20,20,0.92);
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+}
+#logo{
+    height: 150px;
+    width: 325px;
+    margin-right: 150px;
+    margin-left: 45px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.butons{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+button {
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+button:hover {
+    color: #7EF47F;
+}
+
+#Bsecion{
+    margin-left: 160px;
+    margin-right: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 20px;
+}
+.content1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.pinimg.com/originals/95/a5/ac/95a5acf1b7fa736b7927b56a62260b00.gif);
+    background-size: cover;
+}
+#imagen1{
+position: absolute;
+top: 150px;  
+    left: 420px; 
+    z-index: 2;
+}
+#imagen2{
+position: absolute;
+width: 15%;
+top: 150px;  
+left: 1245px;
+z-index: 3;
+}
+.content2{
+    background-color: #202020;
+}
+.content2 h1{
+    padding-top: 60px;
+    margin-left: 450px;
+    font-size: 2em;
+    color: white;
+}
+.content2 h3{
+    color: white;
+
+}
+#offert{
+    margin-left: 320px;
+    font-size: 1em;
+    color: #7EF47F;
+}
+.game-offers {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.game {
+    text-align: center;
+}
+.game img {
+    margin-top: 80px;
+    width: 350px;
+    border-radius: 10px;
+}
+.game h2 {
+    margin: 15px 0;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+.game h3 {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #7EF47F;
+    margin-bottom: 50px;
+}
+.price-offert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 5px;
+}
+.price-offert button{
+    margin-bottom: 50px;
+    padding: 15px 10px;
+    background-color: #7EF47F;
+    color: black;
+    font-weight: bold;
+    border-radius: 10%;
+}
